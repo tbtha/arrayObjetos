@@ -1,11 +1,11 @@
 
 // ejercicio 1 //agregar las sig horas
 traumatologia.push(
-    {hora: '09:00' , especialista: 'RENE POBLETE' , paciente: 'ANA GELLONA' , rut: '13123329-7', previsio: 'ISAPRE'},
-    {hora: '09:30' , especialista: 'MARIA SOLAR' , paciente: 'RAMIRO ANDRADE' , rut: '12221451-K', previsio: 'FONASA'},
-    {hora: '10:00' , especialista: 'RAUL LOYOLA' , paciente: 'CARMEN ISLA' , rut: '10112348-3', previsio: 'ISAPRE'},
-    {hora: '10:30' , especialista: 'ANTONIO LARENAS' , paciente: 'PABLO LOAYZA' , rut: '13453234-1', previsio: 'ISAPRE'},
-    {hora: '12:00' , especialista: 'MATIAS ARAVENA' , paciente: 'SUSANA POBLETE' , rut: '14345656-6', previsio: 'FONASA'},)
+    {hora: '09:00' , especialista: 'RENE POBLETE' , paciente: 'ANA GELLONA' , rut: '13123329-7', prevision: 'ISAPRE'},
+    {hora: '09:30' , especialista: 'MARIA SOLAR' , paciente: 'RAMIRO ANDRADE' , rut: '12221451-K', prevision: 'FONASA'},
+    {hora: '10:00' , especialista: 'RAUL LOYOLA' , paciente: 'CARMEN ISLA' , rut: '10112348-3', prevision: 'ISAPRE'},
+    {hora: '10:30' , especialista: 'ANTONIO LARENAS' , paciente: 'PABLO LOAYZA' , rut: '13453234-1', prevision: 'ISAPRE'},
+    {hora: '12:00' , especialista: 'MATIAS ARAVENA' , paciente: 'SUSANA POBLETE' , rut: '14345656-6', prevision: 'FONASA'},)
 
 //ejercicio 2
 radiologia.pop()//elimina el ultimo
@@ -27,7 +27,7 @@ document.write(`
 )
 const listaPacientes = radiologia.concat(traumatologia,dental)
 listaPacientes.forEach(listaPacientes => {
-    return document.write(`<p>${listaPacientes.paciente}</p>`)
+    return document.write(`<p>${listaPacientes.paciente} </p>`)
 
 });
 
